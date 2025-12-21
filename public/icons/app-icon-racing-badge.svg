@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+      .logo-text { 
+        font-family: 'Bebas Neue', sans-serif; 
+        font-weight: bold;
+        letter-spacing: -0.03em;
+      }
+    </style>
+  </defs>
+  
+  <!-- Racing Badge Style - Red Background -->
+  <rect width="512" height="512" rx="115" fill="#D40000"/>
+  
+  <!-- M Text -->
+  <text x="130" y="360" class="logo-text" font-size="280" fill="#1A1A1A">M</text>
+  
+  <!-- Superscript 2 -->
+  <text x="370" y="210" class="logo-text" font-size="168" fill="#1A1A1A">2</text>
+</svg>

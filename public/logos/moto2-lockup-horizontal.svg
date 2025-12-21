@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap');
+      .logo-text { 
+        font-family: 'Bebas Neue', sans-serif; 
+        font-weight: bold;
+        letter-spacing: -0.03em;
+      }
+      .company-text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="120" fill="#1A1A1A"/>
+  
+  <!-- MOTO Text -->
+  <text x="40" y="80" class="logo-text" font-size="72" fill="#D40000">MOTO</text>
+  
+  <!-- Superscript 2 -->
+  <text x="275" y="50" class="logo-text" font-size="43" fill="#D40000">2</text>
+  
+  <!-- Company Name -->
+  <text x="360" y="70" class="company-text" font-size="24" fill="#F5F1E8">moto2moto</text>
+</svg>
