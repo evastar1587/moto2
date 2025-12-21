@@ -1,5 +1,3 @@
-
-
 export const SkeletonText = ({ lines = 3 }) => (
   <div className="space-y-2 animate-pulse">
     {[...Array(lines)].map((_, i) => (

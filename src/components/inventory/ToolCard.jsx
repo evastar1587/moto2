@@ -1,4 +1,3 @@
-
 import { MapPin, Wrench, Home } from 'lucide-react';
 
 const ToolCard = ({ tool, onRequest }) => {

@@ -1,4 +1,3 @@
-
 import { Radio, Users, BookOpen, Package } from 'lucide-react';
 
 const Header = ({ activeTab, onTabChange }) => {
