@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MapPin, Wrench, Home } from 'lucide-react';
 
 const ToolCard = ({ tool, onRequest }) => {

@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import Header from './components/layout/Header';
 import FeedPage from './pages/FeedPage';
 import PeoplePage from './pages/PeoplePage';

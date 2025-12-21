@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Package, Filter } from 'lucide-react';
 import { useTools } from '../hooks/useTools';
 import ToolCard from '../components/inventory/ToolCard';
@@ -38,7 +38,7 @@ const InventoryPage = () => {
               Tool & Space Pool
             </h2>
             <p className="text-zinc-300 mb-2">
-              Specialty tools shouldn't collect dust. Garages shouldn't sit empty.
+              Specialty tools shouldn&apos;t collect dust. Garages shouldn&apos;t sit empty.
             </p>
             <p className="text-white font-bold">
               Borrow what you need. Share what you have.

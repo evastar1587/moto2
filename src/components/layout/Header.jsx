@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Radio, Users, BookOpen, Package } from 'lucide-react';
 
 const Header = ({ activeTab, onTabChange }) => {
@@ -33,7 +33,7 @@ const Header = ({ activeTab, onTabChange }) => {
 
         <div className="bg-zinc-800 border-l-2 border-moto-red p-3 mb-4">
           <p className="text-zinc-400 text-sm">
-            <span className="text-moto-red font-bold">RIGHT TO REPAIR:</span> Peer-to-peer platform for Portland's moped and motorcycle community.
+            <span className="text-moto-red font-bold">RIGHT TO REPAIR:</span> Peer-to-peer platform for Portland&apos;s moped and motorcycle community.
           </p>
         </div>
 

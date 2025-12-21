@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Radio } from 'lucide-react';
 
 const FeedPage = () => {

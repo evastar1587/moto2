@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Modal from '../common/Modal';
 
 const ToolRequestModal = ({ tool, onClose }) => {
@@ -67,7 +67,7 @@ const ToolRequestModal = ({ tool, onClose }) => {
 
         <div className="bg-amber-950/50 border border-amber-900 p-2 rounded">
           <p className="text-xs text-amber-400">
-            ⚠ Return tools clean and on time. Respect people's stuff.
+            ⚠ Return tools clean and on time. Respect people&apos;s stuff.
           </p>
         </div>
 
