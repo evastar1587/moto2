@@ -1,6 +1,18 @@
-# Moto² — Portland Motorcycle & Moped Community
+<div align="center">
+  <img src="./public/logos/moto2-primary-red-on-black.svg" alt="MOTO² Logo" width="400"/>
+  
+  # Moto² — Portland Motorcycle & Moped Community
+  
+  > **Right to Repair**: Peer-to-peer platform for Portland's moped and motorcycle community
+  
+  <a href="#-overview">Overview</a> •
+  <a href="#-design-system">Design</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-branding">Branding</a>
+</div>
 
-> **Right to Repair**: Peer-to-peer platform for Portland's moped and motorcycle community
+---
 
 ## 🏍️ Overview
 
@@ -203,6 +215,61 @@ We welcome contributions! Please:
 - Maintain mobile-first responsive design
 - Ensure keyboard accessibility
 - Follow existing component patterns
+
+## 🎨 Branding
+
+### Logo Assets
+
+The MOTO² brand identity is built around a bold, motorsport-inspired design system. All logo assets are available in the `/public/logos` directory.
+
+#### Primary Logo: MOTO²
+
+Available in four approved color variations:
+
+- **Version 1: Ducati Red on Matte Black** (PRIMARY) — `moto2-primary-red-on-black.svg`
+  - Use for: App icons, headers, dark mode, stickers
+- **Version 2: Matte Black on Cream** (Vintage) — `moto2-primary-black-on-cream.svg`
+  - Use for: Documentation, posters, light mode, print
+- **Version 3: White on Ducati Red** (Action) — `moto2-primary-white-on-red.svg`
+  - Use for: Buttons, badges, high-contrast CTAs
+- **Version 4: Monochrome** (Premium) — `moto2-primary-monochrome-*.svg`
+  - Use for: Embroidery, laser etching, single-color applications
+
+#### Secondary Logo: M²
+
+Minimal mark for constrained spaces (favicons, app icons, social profiles):
+
+- `m2-minimal-red-on-black.svg` — Primary compact version
+- `m2-minimal-black-on-cream.svg` — Vintage compact version
+- `m2-minimal-white-on-red.svg` — Action compact version
+- `m2-minimal-monochrome-*.svg` — Premium compact versions
+
+#### App Icons
+
+Three style concepts optimized for different platforms:
+
+- **Racing Badge** (`app-icon-racing-badge.svg`) — M² in black on Ducati Red
+- **Minimal M²** (`app-icon-minimal.svg`) — M² in red on Matte Black
+- **Vintage Number Plate** (`app-icon-vintage.svg`) — M² on Cream with red accent
+
+### Brand Guidelines
+
+For complete brand specifications, color codes, typography pairings, usage guidelines, and do's/don'ts, see:
+
+📖 **[Brand Style Guide](./docs/brand/STYLE_GUIDE.md)**
+
+Key specifications:
+- **Font**: Bebas Neue (Bold) with -3% letter spacing
+- **Superscript "2"**: 60% of main text, positioned upper-right
+- **Primary Colors**: Ducati Red `#D40000`, Matte Black `#1A1A1A`, Cream `#F5F1E8`
+- **Display Typography**: Bebas Neue, Oswald, Montserrat
+- **Body Typography**: Inter, Roboto, Open Sans
+
+### Credits
+
+- **Design**: MOTO² Brand Identity (2024)
+- **Typography**: Bebas Neue by Dharma Type, Inter by Rasmus Andersson
+- **Inspiration**: Ducati heritage, vintage racing number plates, Portland DIY culture
 
 ## 📜 License
 
