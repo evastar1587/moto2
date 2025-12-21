@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/logos/moto2-primary-red-on-black.svg" alt="MOTO² Logo" width="400"/>
+  <img src="./public/logos/moto2-primary-red-on-black.svg" alt="MOTO²" Logo width="400"/>
   
   # Moto² — Portland Motorcycle & Moped Community
   
