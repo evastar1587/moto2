@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOTO² Brand Assets Gallery</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: #f5f5f5;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #1A1A1A;
+    }
+    
+    .subtitle {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      font-size: 1.8rem;
+      margin: 60px 0 20px;
+      color: #1A1A1A;
+      border-bottom: 3px solid #D40000;
+      padding-bottom: 10px;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h3 {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    
+    .logo-preview {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 150px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fff;
+    }
+    
+    .logo-preview.dark {
+      background: #1A1A1A;
+    }
+    
+    .logo-preview.cream {
+      background: #F5F1E8;
+    }
+    
+    .logo-preview.red {
+      background: #D40000;
+    }
+    
+    .logo-preview img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .icon-preview {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+    }
+    
+    .icon-preview img {
+      width: 150px;
+      height: 150px;
+    }
+    
+    .usage {
+      margin-top: 10px;
+      padding: 10px;
+      background: #f9f9f9;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+    
+    .color-swatch {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      margin-right: 8px;
+      vertical-align: middle;
+      border: 1px solid #ddd;
+    }
+    
+    .info-box {
+      background: #D40000;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+    }
+    
+    .info-box h3 {
+      margin-bottom: 10px;
+    }
+    
+    code {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MOTO² Brand Assets Gallery</h1>
+    <p class="subtitle">Complete visual reference for all brand assets</p>
+    
+    <div class="info-box">
+      <h3>📁 Asset Locations</h3>
+      <p><strong>Logos:</strong> <code>/public/logos/</code></p>
+      <p><strong>Icons:</strong> <code>/public/icons/</code></p>
+      <p><strong>Documentation:</strong> <code>/docs/brand/STYLE_GUIDE.md</code></p>
+    </div>
+
+    <h2>Primary Logos (MOTO²)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Version 1: Ducati Red on Matte Black</h3>
+        <div class="logo-preview dark">
+          <img src="/logos/moto2-primary-red-on-black.svg" alt="MOTO² Red on Black">
+        </div>
+        <div class="usage">
+          <strong>PRIMARY VERSION</strong><br>
+          <span class="color-swatch" style="background: #D40000;"></span> #D40000 on 
+          <span class="color-swatch" style="background: #1A1A1A;"></span> #1A1A1A<br>
+          Use: App icons, headers, dark mode, stickers
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Version 2: Matte Black on Cream</h3>
+        <div class="logo-preview cream">
+          <img src="/logos/moto2-primary-black-on-cream.svg" alt="MOTO² Black on Cream">
+        </div>
+        <div class="usage">
+          <strong>VINTAGE VERSION</strong><br>
+          <span class="color-swatch" style="background: #1A1A1A;"></span> #1A1A1A on 
+          <span class="color-swatch" style="background: #F5F1E8;"></span> #F5F1E8<br>
+          Use: Documentation, posters, light mode, print
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Version 3: White on Ducati Red</h3>
+        <div class="logo-preview red">
+          <img src="/logos/moto2-primary-white-on-red.svg" alt="MOTO² White on Red">
+        </div>
+        <div class="usage">
+          <strong>ACTION VERSION</strong><br>
+          <span class="color-swatch" style="background: #FFFFFF;"></span> #FFFFFF on 
+          <span class="color-swatch" style="background: #D40000;"></span> #D40000<br>
+          Use: Buttons, badges, high-contrast CTAs
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Version 4: Monochrome Black</h3>
+        <div class="logo-preview">
+          <img src="/logos/moto2-primary-monochrome-black.svg" alt="MOTO² Monochrome Black">
+        </div>
+        <div class="usage">
+          <strong>PREMIUM BLACK</strong><br>
+          <span class="color-swatch" style="background: #1A1A1A;"></span> #1A1A1A<br>
+          Use: Embroidery, laser etching, single-color
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Version 5: Monochrome White</h3>
+        <div class="logo-preview dark">
+          <img src="/logos/moto2-primary-monochrome-white.svg" alt="MOTO² Monochrome White">
+        </div>
+        <div class="usage">
+          <strong>PREMIUM WHITE</strong><br>
+          <span class="color-swatch" style="background: #FFFFFF;"></span> #FFFFFF<br>
+          Use: Embroidery, laser etching, single-color
+        </div>
+      </div>
+    </div>
+
+    <h2>Secondary Logos (M² Minimal)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Red on Black (Primary Compact)</h3>
+        <div class="logo-preview dark">
+          <img src="/logos/m2-minimal-red-on-black.svg" alt="M² Red on Black" style="width: 120px;">
+        </div>
+        <div class="usage">
+          Use: App icons, favicons, social profiles
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Black on Cream (Vintage Compact)</h3>
+        <div class="logo-preview cream">
+          <img src="/logos/m2-minimal-black-on-cream.svg" alt="M² Black on Cream" style="width: 120px;">
+        </div>
+        <div class="usage">
+          Use: Light mode icons, documentation
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>White on Red (Action Compact)</h3>
+        <div class="logo-preview red">
+          <img src="/logos/m2-minimal-white-on-red.svg" alt="M² White on Red" style="width: 120px;">
+        </div>
+        <div class="usage">
+          Use: Action icons, alert badges
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Monochrome Black (Premium Compact)</h3>
+        <div class="logo-preview">
+          <img src="/logos/m2-minimal-monochrome-black.svg" alt="M² Monochrome Black" style="width: 120px;">
+        </div>
+        <div class="usage">
+          Use: Single-color applications
+        </div>
+      </div>
+    </div>
+
+    <h2>Brand Lockups</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Horizontal Lockup</h3>
+        <div class="logo-preview dark">
+          <img src="/logos/moto2-lockup-horizontal.svg" alt="MOTO² Horizontal Lockup">
+        </div>
+        <div class="usage">
+          Format: MOTO² + "moto2moto"<br>
+          Use: Website headers, email signatures
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Stacked Lockup</h3>
+        <div class="logo-preview dark">
+          <img src="/logos/moto2-lockup-stacked.svg" alt="MOTO² Stacked Lockup" style="width: 250px;">
+        </div>
+        <div class="usage">
+          Format: "moto2moto" above MOTO²<br>
+          Use: Social media, square formats
+        </div>
+      </div>
+    </div>
+
+    <h2>App Icons</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Racing Badge</h3>
+        <div class="icon-preview">
+          <img src="/icons/app-icon-racing-badge.svg" alt="Racing Badge Icon">
+        </div>
+        <div class="usage">
+          <strong>BOLD & AGGRESSIVE</strong><br>
+          M² in black on Ducati Red<br>
+          Platform: iOS, Android, PWA
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Minimal M²</h3>
+        <div class="icon-preview">
+          <img src="/icons/app-icon-minimal.svg" alt="Minimal Icon">
+        </div>
+        <div class="usage">
+          <strong>CLEAN & MODERN</strong><br>
+          M² in red on Matte Black<br>
+          Platform: Desktop apps, browser extension
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Vintage Number Plate</h3>
+        <div class="icon-preview">
+          <img src="/icons/app-icon-vintage.svg" alt="Vintage Icon">
+        </div>
+        <div class="usage">
+          <strong>RETRO & APPROACHABLE</strong><br>
+          M in black, 2 in red on Cream<br>
+          Platform: Social media, community apps
+        </div>
+      </div>
+    </div>
+
+    <h2>Favicon</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Favicon (32×32)</h3>
+        <div class="logo-preview" style="min-height: 80px;">
+          <img src="/favicon.svg" alt="Favicon" style="width: 32px; height: 32px;">
+        </div>
+        <div class="usage">
+          Optimized for browser tabs<br>
+          File: <code>/public/favicon.svg</code>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-box" style="margin-top: 60px;">
+      <h3>📚 Complete Documentation</h3>
+      <p>For detailed brand guidelines, color codes, typography specifications, and usage rules, see:</p>
+      <p><strong><code>/docs/brand/STYLE_GUIDE.md</code></strong></p>
+    </div>
+  </div>
+</body>
+</html>
